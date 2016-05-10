@@ -1,0 +1,83 @@
+#form-inner {
+    margin: 0 auto;
+    padding: 35px 0;
+    width: 545px;
+}
+	
+#form-wrapper label {
+    font: 25px sans-serif; 
+    float: left; 
+    margin-right: 10px; 
+    width: 120px; 
+}
+
+#form-wrapper .input {
+    font: 15px sans-serif; 
+    padding: 5px;
+    margin: 0 0 20px 0;
+    border: 1px solid #333333; 
+    width: 400px; 
+    color: #111111;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #bbb inset;
+    box-shadow: 0 2px 4px #bbb inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#form-wrapper .input:focus {
+    background-color: #aaaa99;
+    outline: 0;
+}
+
+#form-wrapper .textarea {
+    height:200px;	
+}
+
+#form-wrapper .button {
+    float: right;
+    margin: 10px 0 0 0;
+    padding: 7px 15px;
+    cursor: pointer;   
+    color: #ffffff;
+    font: bold 13px sans-serif;
+    text-transform: uppercase;
+    overflow: visible;
+    border: 0;
+    background-color: #112222;
+    background-image: -moz-linear-gradient(#445533, #112222);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#445533), to(#112222));    
+    background-image: -webkit-linear-gradient(#445533, #112222);
+    background-image: -o-linear-gradient(#445533, #112222);
+    background-image: -ms-linear-gradient(#445533, #112222);
+    background-image: linear-gradient(#445533, #112222);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#445533', EndColorStr='#112222');
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+}
+
+#form-wrapper .button:hover {
+    background-color: #445533;
+    background-image: -moz-linear-gradient(#112222, #445533);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#112222), to(#445533));      
+    background-image: -webkit-linear-gradient(#112222, #445533);
+    background-image: -o-linear-gradient(#112222, #445533);
+    background-image: -ms-linear-gradient(#112222, #445533);
+    background-image: linear-gradient(#112222, #445533);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#112222', EndColorStr='#445533');     
+}
+
+#form-wrapper .button:active {
+    background: #445533;
+    position: relative;
+    top: 2px;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+}
